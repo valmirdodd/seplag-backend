@@ -1,0 +1,129 @@
+{
+    "servidores": [
+        {
+            "matricula": 1,
+            "cpf": "11122233301",
+            "nome": "José da Silva",
+            "orgao": "DETRAN"
+        },
+        {
+            "matricula": 2,
+            "cpf": "22233344402",
+            "nome": "Luis Fernando Matos",
+            "orgao": "DETRAN"
+        },
+        {
+            "matricula": 3,
+            "cpf": "33344455503",
+            "nome": "Ana Cláudia Fonseca",
+            "orgao": "UECE"
+        },
+        {
+            "matricula": 4,
+            "cpf": "44455566604",
+            "nome": "Reginaldo Trindade",
+            "orgao": "UECE"
+        },
+        {
+            "matricula": 5,
+            "cpf": "55566677705",
+            "nome": "Beatriz dos Santos Gadelha",
+            "orgao": "SEAD"
+        }
+    ],
+    "categoriasDocumentos": [
+        {
+            "idCategoriaDocumento": 1,
+            "abreviacaoCategoria": "Identificação",
+            "descricaoCategoria": "Documentos de identificação do(a) servidor(o)"
+        },
+        {
+            "idCategoriaDocumento": 2,
+            "abreviacaoCategoria": "Vida funcional",
+            "descricaoCategoria": "Documentos de vida funcional do(a) servidor(a)"
+        },
+        {
+            "idCategoriaDocumento": 3,
+            "abreviacaoCategoria": "Contagem de tempo",
+            "descricaoCategoria": "Documentos de contagem de tempo de serviço/contribuição do(a) servidor(a)"
+        },
+        {
+            "idCategoriaDocumento": 4,
+            "abreviacaoCategoria": "Remuneração",
+            "descricaoCategoria": "Documentos de remuneração, gratificações, verbas e de definição do valor dos proventos do(a) servidor(a)"
+        }
+    ],
+    "locaisTramitacao": [
+        {
+            "idLocalTramitacao": 1,
+            "descricaoLocalTramitacao": "PGE - Análise"
+        },
+        {
+            "idLocalTramitacao": 2,
+            "descricaoLocalTramitacao": "TCE - Gestor"
+        },
+        {
+            "idLocalTramitacao": 3,
+            "descricaoLocalTramitacao": "Cprev - Gestor"
+        },
+        {
+            "idLocalTramitacao": 4,
+            "descricaoLocalTramitacao": "Secretário SEPLAG"
+        },
+        {
+            "idLocalTramitacao": 5,
+            "descricaoLocalTramitacao": "Setorial Servidor"
+        }
+    ],
+    "beneficios": [
+        {
+            "idBeneficio": 1,
+            "descricaoBeneficio": "benefício teste-1",
+            "matricula": 1
+        },
+        {
+            "idBeneficio": 2,
+            "descricaoBeneficio": "benefício teste-2",
+            "matricula": 2
+        }
+    ],
+    "documentosBeneficios": [
+        {
+            "idBeneficio": null,
+            "idCategoriaDocumento": null,
+            "documentoPDF": null
+        }
+    ],
+    "tramitacao": [
+        {
+            "idBeneficio": 1,
+            "dtTramitacao": "2020-01-01",
+            "idLocalTramitacaoOrigem": 1,
+            "idLocalTramitacaoDestino": 2
+        },
+        {
+            "idBeneficio": 1,
+            "dtTramitacao": "2020-02-01",
+            "idLocalTramitacaoOrigem": 2,
+            "idLocalTramitacaoDestino": 3
+        },
+        {
+            "idBeneficio": 2,
+            "dtTramitacao": "2020-03-01",
+            "idLocalTramitacaoOrigem": 1,
+            "idLocalTramitacaoDestino": 2
+        },
+        {
+            "idBeneficio": 1,
+            "dtTramitacao": "2020-01-31",
+            "idLocalTramitacaoOrigem": 3,
+            "idLocalTramitacaoDestino": 4
+        },
+        {
+            "idBeneficio": 2,
+            "dtTramitacao": "2020-04-15",
+            "idLocalTramitacaoOrigem": 2,
+            "idLocalTramitacaoDestino": 3
+        }
+    ]
+}
