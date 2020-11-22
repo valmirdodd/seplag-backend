@@ -18,7 +18,7 @@ http://localhost:3001/documentos_beneficios
 http://localhost:3001/tramitacao
 
 
-# Dependências:
+# dependências:
 json-server 0.16.2
 
 
